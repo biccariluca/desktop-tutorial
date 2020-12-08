@@ -15,7 +15,7 @@ public class BiccariMain extends Application{
 	public void start(Stage stage) throws IOException{
 		
 		//creazione di un caricatore fxml
-		FXMLLoader caricatore = new FXMLLoader();
+		FXMLLoader caricatore = new FXMLLoader()
 		// collegamento con controller
 		caricatore.setController(new BiccariControllore("BiccariControllore"));
 		
